@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="cart_services.OrderHistory">
+        <methods>
+          <exclude name="testcase2"></exclude>
+        </methods>
+        
+      </class>
+      <class name="cart_services.AddToCart"/>
+
+<!--      <class name="user_services.Login"/>-->
+<!--      <class name="user_services.NormalUsage"/>-->
+<!--      <class name="user_services.DataProviderExample"/>-->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
